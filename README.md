@@ -6,37 +6,32 @@ This repository houses a collection of Java projects that I've developed as part
 
 ## About Me
 
-I am [Your Name], an aspiring software engineer passionate about Java development and full-stack web technologies. This repository serves as a portfolio of my growth and capabilities in Java programming.
+I am Tamal Barman, an aspiring software engineer passionate about Java development and full-stack web technologies. This repository is a portfolio of my growth and capabilities in Java programming.
 
 ## Projects
 
-### Project 1: [Project Name]
+### Project 1: Weather App
 
-- **Description:** Brief description of the project and its purpose.
-- **Technologies Used:** Java, [other relevant technologies/libraries]
-- **Features:** Highlight key features and functionalities implemented.
-- **Repository Link:** [Link to the project repository if applicable]
+- **Description:** The Weather App is a Java-based application that integrates with weather APIs to provide real-time weather information. It allows users to view current weather conditions, forecasts, and weather details based on user-specified locations.
+  
+- **Technologies Used:** Java, [API Name], [other relevant technologies/libraries]
 
-### Project 2: [Project Name]
-
-- **Description:** Brief description of the project and its purpose.
-- **Technologies Used:** Java, [other relevant technologies/libraries]
-- **Features:** Highlight key features and functionalities implemented.
-- **Repository Link:** [Link to the project repository if applicable]
-
-_(Add more projects as necessary)_
+- **Features:**
+  - Fetch and display current weather data including temperature, humidity, and wind speed.
+  - Search functionality to retrieve weather information for specific locations.
+  - Display weather forecasts for the upcoming days.
+  - Responsive user interface for seamless usability across devices.
 
 ## Learning Goals
 
-My primary focus is on mastering Java development along with related technologies such as Spring Boot, Hibernate, and more. Through each project, I aim to deepen my understanding of software architecture, data structures, algorithms, and best coding practices.
+My primary focus is mastering Java development and related technologies such as Spring Boot, Hibernate, and more. I aim to deepen my understanding of software architecture, data structures, algorithms, and best coding practices through each project.
 
 ## Contact Me
 
 Feel free to reach out if you have any questions, suggestions, or opportunities to collaborate. You can connect with me via:
 
-- Email: [Your Email Address]
-- LinkedIn: [Your LinkedIn Profile URL]
-- GitHub: [Your GitHub Profile URL]
+- Email: tamalbarman86@gmail.com
+- LinkedIn: https://www.linkedin.com/in/tamalbrman/
 
 ## Future Plans
 
