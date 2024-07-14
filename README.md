@@ -12,10 +12,15 @@ I am Tamal Barman, an aspiring software engineer passionate about Java developme
 
 ### Project 1: Weather App
 
-- **Description:** The Weather App is a Java-based application that integrates with weather APIs to provide real-time weather information. It allows users to view current weather conditions, forecasts, and weather details based on user-specified locations.
-  
-- **Technologies Used:** Java, [API Name], [other relevant technologies/libraries]
+- **Description:** The Weather App is a Java-based web application that integrates with weather APIs to provide real-time weather information. It allows users to view current weather conditions, forecasts, and weather details based on user-specified locations.
 
+- **Technologies Used:**
+  - **Java Servlet:** Handles server-side logic and integrates with APIs to fetch weather data.
+  - **JSP (JavaServer Pages):** Used for dynamic presentation of weather information and rendering HTML content.
+  - **HTML:** Provides the structure and markup for the web pages.
+  - **CSS:** Styles the HTML elements to enhance the visual presentation and user experience.
+  - **JavaScript:** Enhances interactivity on the client-side, handling user inputs and dynamic content updates.
+  
 - **Features:**
   - Fetch and display current weather data including temperature, humidity, and wind speed.
   - Search functionality to retrieve weather information for specific locations.
