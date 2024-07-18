@@ -12,7 +12,7 @@ I am Tamal Barman, an aspiring software engineer passionate about Java developme
 
 ### Project 1: Weather App
 
-- **Description:** The Weather App is a Java-based web application that integrates with weather APIs to provide real-time weather information. It allows users to view current weather conditions, forecasts, and weather details based on user-specified locations.
+- **Description:** The Weather App is a Java-based web application that integrates with weather APIs to provide real-time weather information. It lets users view current weather conditions, forecasts, and weather details based on user-specified locations.
 
 - **Technologies Used:**
   - **Java Servlet:** Handles server-side logic and integrates with APIs to fetch weather data.
@@ -43,6 +43,96 @@ I am Tamal Barman, an aspiring software engineer passionate about Java developme
 - **Real-Time Calculations:** Immediate display of results as users input values.
 - **Error Handling:** Displays error messages for invalid inputs or operations.
 - **Responsive Design:** Ensures usability across different devices and screen sizes.
+
+### Project 3: Login and Logout Web Application
+
+This project is a simple web application demonstrating login and logout functionality using JSP, Servlets, HTML, and CSS. The application allows users to register, log in, and log out securely.
+
+## Features
+
+- User Registration
+- User Login
+- Session Management
+- Error Handling
+- Responsive Design
+
+## Technologies Used
+
+- Java
+- JSP (JavaServer Pages)
+- Servlets
+- HTML5
+- CSS3
+- JDBC (Java Database Connectivity)
+- MySQL
+
+## Getting Started
+
+### Prerequisites
+
+- JDK 8 or higher
+- Apache Tomcat 8 or higher
+- MySQL Database
+- Git
+
+### Setup
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/username/repository.git
+    cd repository
+    ```
+
+2. **Set up the MySQL database**:
+    - Create a database named `Loginandlogout`.
+    - Run the following SQL script to create the `users` table:
+
+    ```SQL
+    CREATE DATABASE Loginandlogout;
+    USE Loginandlogout;
+    CREATE TABLE users (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        username VARCHAR(50) NOT NULL,
+        email VARCHAR(100) NOT NULL,
+        password VARCHAR(255) NOT NULL
+    );
+    ```
+
+    - Insert test data:
+
+    ```SQL
+    INSERT INTO users (username, email, password) VALUES
+    ('user1', 'user1@example.com', 'password1'),
+    ('user2', 'user2@example.com', 'password2');
+    ```
+
+3. **Configure the project**:
+    - Open the project in your favorite IDE (such as IntelliJ IDEA or Eclipse).
+    - Ensure the MySQL JDBC driver is included in the project's classpath.
+    - Update the database connection settings in `DBUtil.java`:
+
+    ```java
+    private static final String URL = "jdbc:mysql://localhost:3306/Loginandlogout";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "yourpassword";
+    ```
+
+4. **Deploy to Apache Tomcat**:
+    - Add the project to your Apache Tomcat server.
+    - Start the Tomcat server and navigate to `http://localhost:8080/your-project-name`.
+
+## Usage
+
+1. **Registration**:
+    - Navigate to the registration page and fill in the form to create a new account.
+
+2. **Login**:
+    - Navigate to the login page and enter your credentials to log in.
+
+3. **Logout**:
+    - Once logged in, you can log out by clicking the logout button to end your session.
+
 
 ## Learning Goals
 
